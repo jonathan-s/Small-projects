@@ -47,12 +47,12 @@ stiftwr = codecs.open("stiftelse_out.csv", "w", "utf8")
 index = stiftindex()
 
 makeheadlines()
-"""for x in range(len(index)):
+for x in range(len(index)):
 	f = urllib2.urlopen("http://www.stiftelser.lst.se/StiftWeb/FoundationDetails.aspx?id=" + index[x])
 	html = f.read()
 	extract(html) #function for extracting content
 	print x
 	f.close()
-"""
+
 
 
